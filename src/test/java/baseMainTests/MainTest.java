@@ -44,6 +44,8 @@ public class MainTest extends LandingPage{
 	    @Then("^Verify the login$")
 	    public void verify_the_login() throws Throwable {
 	    	System.out.println("Success verification");
+	    	System.out.println("Success verification 1");
+	    	System.out.println("Success verification 2");
 	    }
 
 	    @And("^close all browsers$")
