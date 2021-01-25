@@ -51,7 +51,8 @@ public class MainTest extends LandingPage{
 
 	    @And("^close all browsers$")
 	    public void close_all_browsers() throws Throwable {
-	    
+	    	
+	    	System.out.println("Closing all browsers");
 	    	driver.close();
 	    }
 	
