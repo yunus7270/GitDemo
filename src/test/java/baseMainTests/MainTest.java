@@ -46,6 +46,7 @@ public class MainTest extends LandingPage{
 	    	System.out.println("Success verification");
 	    	System.out.println("Success verification 1");
 	    	System.out.println("Success verification 2");
+	    	System.out.println("Success verification 3");
 	    }
 
 	    @And("^close all browsers$")
